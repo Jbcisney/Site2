@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Navalha & Co. — Barbearias</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="hd">
+<a class="logo" href="#top">Navalha<span> &amp; </span>Co.</a>
+<nav><a href="#servicos" data-i="n1"></a><a href="#precos" data-i="n2"></a><a href="#agendar" data-i="n3"></a><a href="#unidades" data-i="n4"></a><a href="#contato" data-i="n5"></a></nav>
+<select id="lang" aria-label="Language"><option value="pt">Português</option><option value="es">Español</option><option value="en">English</option></select>
+</div></header>
+
+<div class="hero" id="top"><div class="w">
+<div class="tag" data-i="tag"></div>
+<h1 data-i="h1"></h1>
+<p data-i="hp"></p>
+<a class="btn" href="#agendar" data-i="cta1"></a><a class="btn o" href="#servicos" data-i="cta2"></a>
+</div></div>
+
+<section id="servicos"><div class="w">
+<div class="sh"><h2 data-i="t1"></h2><p data-i="s1"></p></div>
+<div class="grid" id="svc"></div>
+</div></section>
+
+<section id="precos" class="alt"><div class="w">
+<div class="sh"><h2 data-i="t2"></h2><p data-i="s2"></p></div>
+<div class="tw"><table><thead><tr><th data-i="c1"></th><th data-i="c2"></th><th data-i="c3"></th></tr></thead><tbody id="pr"></tbody></table></div>
+</div></section>
+
+<section id="agendar"><div class="w">
+<div class="sh"><h2 data-i="t3"></h2><p data-i="s3"></p></div>
+<form class="bk card" id="form" novalidate><div class="f">
+<div><label for="un" data-i="l1"></label><select id="un"></select></div>
+<div><label for="sv" data-i="l2"></label><select id="sv"></select></div>
+<div><label for="dt" data-i="l3"></label><input type="date" id="dt"></div>
+<div><label for="nm" data-i="l4"></label><input id="nm" autocomplete="name"></div>
+<div class="full"><label data-i="l5"></label><div class="slots" id="sl"></div></div>
+<div class="full"><label for="ph" data-i="l6"></label><input id="ph" type="tel" autocomplete="tel"></div>
+<div class="full"><button class="btn" type="submit" data-i="bt"></button></div>
+</div><div class="msg" id="msg" role="status"></div></form>
+</div></section>
+
+<section id="unidades" class="alt"><div class="w">
+<div class="sh"><h2 data-i="t4"></h2></div>
+<div class="grid" id="units"></div>
+</div></section>
+
+<section id="contato"><div class="w">
+<div class="sh"><h2 data-i="t5"></h2></div>
+<p class="ab" data-i="ab"></p>
+<div class="ct">
+<div><small data-i="k1"></small><a href="tel:+551140000000">+55 11 4000-0000</a></div>
+<div><small>WhatsApp</small><a href="https://wa.me/5511940000000">+55 11 94000-0000</a></div>
+<div><small>Email</small><a href="mailto:contato@navalhaco.example">contato@navalhaco.example</a></div>
+<div><small>Instagram</small><a href="#top">@navalhaco</a></div>
+</div>
+</div></section>
+
+<footer>© 2026 Navalha &amp; Co. — <span data-i="ft"></span></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
